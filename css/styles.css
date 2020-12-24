@@ -13,6 +13,14 @@ a {
   color: yellow;
 }
 
+.content{
+  margin:30px;
+  display: inline;
+}
+.heading{
+  background-color: yellow;
+  font-size: 50px;
+}
 .maintance {
   font-weight: 100;
   width: 50%;
@@ -50,4 +58,188 @@ a {
   color: yellow;
   height: auto;
   width: auto;
+}
+
+.exercise {
+  background-color: grey;
+  display: block;
+  color: Yellow;
+  margin-top: 100px;
+  font-size: 40px;
+}
+
+.box {
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  width: 200px;
+}
+
+#exercise .box {
+  width: 200px;
+  height: 200px;
+}
+
+.boxcontainer {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#exercise {
+  align-items: center;
+}
+
+p {
+  margin: 0 100px 0 100px;
+}
+
+#box1 {
+  color: white;
+  background-color: blue;
+}
+
+#box2 {
+  background-color: Yellow;
+}
+
+#box3 {
+  background-color: Green;
+}
+
+#exercise1 {
+  display: block;
+}
+
+#exercise1 #box1 {
+  padding: 10px;
+  border: solid 10px black;
+}
+
+#exercise1 #box2 {
+  margin-left: 240px;
+  border: solid 20px black;
+}
+
+#exercise1 #box3 {
+  margin-left: 480px;
+  border: solid 10px black;
+}
+
+#exercise2 .box {
+  display: inline-block;
+  position: relative;
+  margin-right: 5px;
+}
+
+#exercise2 #box1 {
+  left: 515px;
+}
+
+#exercise2 #box2 {
+  left: 515px;
+}
+
+#exercise2 #box3 {
+  left: -100px;
+}
+
+#exercise2 {
+  width: 100vw;
+  flex-direction: row;
+}
+
+#exercise3 .box {
+  display: block;
+  position: absolute;
+}
+
+#exercise3 #box1 {
+  left: 410px;
+  top: 410px;
+}
+
+#exercise3 #box2 {
+  left: 210px;
+  top: 210px;
+}
+
+#exercise3 a {
+  position: absolute;
+  top: 500px;
+}
+
+.small-container {
+  height: 490px;
+  width: 840px;
+  position: absolute;
+  border: solid 3px yellow;
+}
+
+.container-item {
+  position: absolute;
+  font-size: 40px;
+  background-color: #eeeff2;
+  height: 150px;
+  width: 100px;
+}
+
+#exercise4 hr {
+  display: inline-block;
+  margin: 0;
+  height: 150px;
+  border-top: 0px;
+  border-left: 10px;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-style: dotted;
+  border-color: #D0D0FF;
+}
+
+#exercise4 p {
+  margin-left: 0;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+
+#item1 {
+  top: 10px;
+  left: 10px;
+}
+
+#item2 {
+  top: 10px;
+  left: 120px
+}
+
+#item3 {
+  top: 10px;
+  left: 230px
+}
+
+#item4 {
+  top: 10px;
+  left: 340px
+}
+
+#item5 {
+  top: 10px;
+  left: 450px
+}
+
+#item6 {
+  bottom: 10px;
+  right: 10px;
+}
+
+.container-item:hover {
+  background-color: yellow;
+  color: goldenrod;
+}
+
+#linkto {
+  position: absolute;
+  top: 600px;
+  font-size: 40px;
 }
